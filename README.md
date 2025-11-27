@@ -1,1 +1,45 @@
 # JAVA-Cless-SEC1
+```java
+public class lab2_1 {
+    public static void main(String[] args) {
+        long studentID = 685021000284L;
+        String fullName = " Thanchanat Homphao ";
+        String trimName = fullName.trim();
+
+        System.out.println("============Student Profile============\n");
+        System.out.println("ID:"+studentID);
+        System.out.println("Name (raw):["+fullName+"]");
+        //System.out.println("Name (trim):"+fullName.trim());
+        System.out.println("Name (trim):"+trimName);
+        System.out.println("Name (Hello message:) "+"Hello,"+trimName+"!welcome to JAVA cless");
+        System.out.println("Name (lowercase):"+trimName.toLowerCase());
+        System.out.println("Name (Uppercase):"+trimName.toUpperCase());
+        System.out.println("Count Name: "+trimName.length());System.out.println("Count Name: "+trimName.length());
+        System.out.println("First Letter: "+trimName.charAt(0));
+        System.out.println("Name after replace: "+trimName.replace('o','O'));
+        System.out.println("Name (Only name) "+trimName.substring(0, 10));
+        System.out.println("Name (Only surname) "+trimName.substring(11, 18));
+        
+        int age = 18;
+        float weight =55f; 
+        double height =1.71;
+        double bmi = weight/(height*height);
+        String message = String.format("My BMI: %.2f",bmi);
+        System.out.println("=============Calculate Part============\n");
+        System.out.println("Age: "+age);
+        System.out.println("Heieht "+height);
+        System.out.println("Weight "+weight);
+        //System.out.println("My BMI"+bmi);
+        System.out.println(message);
+        
+        char grade = 'A';
+        boolean isAction = true ;
+        boolean isGradeA = (grade =='A');
+        System.out.println("==============Test Boolean=============\n");
+        System.out.println("is Grade A? "+ isGradeA);
+
+        System.out.println("\n=====================================");
+    }
+}
+
+```
