@@ -1,4 +1,5 @@
 # JAVA-Cless-SEC1
+<h1>27/11/2568</h1>h1>
 #lab2_1.java
 ```java
 public class lab2_1 {
@@ -66,4 +67,28 @@ public class lab2_2 {
     }
 }
 
+```
+#Exam2.java
+```java
+public class Exam2 {
+    public static void main(String[] args) {
+        double distance = 150.5;
+        double time =  18.2;
+        double celsius = 30;
+        int totolMinutes = 130;
+        String name = "Thanchanat" ;
+        double speed = distance/time;
+        double fahranhenheit = celsius * 9/5+32;
+        int hours = totolMinutes /60;
+        int minutes = totolMinutes % 60;
+        System.out.println("Speed:"+String.format("%.2f",speed)+" m/s");
+        System.out.println("Temperature in Fahrenheit:"+String.format("%.1f",fahranhenheit));
+        System.out.println("130 minutes "+hours+"hours "+minutes+" minutes");
+        System.out.println("hello,"+name+"Temperature today in Fahrenheit is "+String.format("%.1f",fahranhenheit));
+
+
+        
+    }
+    
+}
 ```
