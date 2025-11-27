@@ -1,4 +1,5 @@
 # JAVA-Cless-SEC1
+#lab2_1.java
 ```java
 public class lab2_1 {
     public static void main(String[] args) {
@@ -39,6 +40,29 @@ public class lab2_1 {
         System.out.println("is Grade A? "+ isGradeA);
 
         System.out.println("\n=====================================");
+    }
+}
+
+```
+#lab2_2.java
+```java
+public class lab2_2 {
+    public static void main(String[] args) {
+        int decimal = 100;
+        int binary = 0b1100100;
+        int octal = 0144;
+        int hexadecinal = 0x64;
+        System.out.println("======== Interger Literal ========\n");
+        System.out.println("Decimal = "+decimal);
+        System.out.println("Binary = "+binary);
+        System.out.println("Octal = "+octal);
+        System.out.println("Hexadecinal = "+hexadecinal);
+
+        boolean isJavaFun = true;
+        boolean isTried = false;
+        System.out.println("======== Boolean Literal  ========\n");
+        System.out.println("Is java Fun? "+isJavaFun);
+        System.out.println("Is tried? "+isTried);
     }
 }
 
